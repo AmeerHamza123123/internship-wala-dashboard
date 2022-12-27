@@ -1,0 +1,43 @@
+.search-btn{
+
+    color: black;
+}
+.search-btn:hover{
+    color: black;
+    font-weight: bold;
+}
+:root{
+    --offcanvas-width:400px;
+}
+.sidebar-nav{
+    width: var(--offcanvas-width);
+}
+.sidebar-link{
+    display: flex;
+    align-items: center;
+}
+.sidebar-link .right-icon{
+    display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"].right-icon{
+    transform:rotate(180deg);
+}
+.nested-ul{
+    list-style-type: none;
+}
+.cross-icon{
+    display: inline-flex
+}
+ 
+/*..............................MEDIA QUERY SECTION..............................*/
+
+
+@media screen and (min-width:992px){
+    .sidebar-nav{
+        transform: none;
+        visibility: visible !important;
+    }
+    main{
+        margin-left:var(--offcanvas-width);
+    }
+}

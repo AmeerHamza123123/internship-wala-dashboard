@@ -1,0 +1,5 @@
+1 navbar
+2 canvas trigger in the navbar with icon
+3 drop down in the navbar
+4 offcanvas it is a side div that comes by clicking on the canvas trigger
+5 main is the body of the html that shows the content of the website
